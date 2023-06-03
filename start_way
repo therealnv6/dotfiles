@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# hyprpaper script, lol
+export QUERY=furry
+# Set the API_KEY below to support NSFW queries
+# export WH_API_KEY=
+export WLR_NO_HARDWARE_CURSORS=1
+Hyprland
