@@ -1,1 +1,0 @@
-/home/riven/.config/fish/
