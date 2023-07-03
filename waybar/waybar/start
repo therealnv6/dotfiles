@@ -1,0 +1,25 @@
+#!/bin/bash
+
+WAYBAR_DIR="/home/riven/.config/waybar/waybar"
+
+if [ ! -d "$WAYBAR_DIR" ]; then
+  echo "Waybar directory not found"
+  exit 1
+fi
+
+DIRECTORIES=$(find "$WAYBAR_DIR" -mindepth 1 -type d -exec basename {} \;)
+
+if [ -z "$DIRECTORIES" ]; then
+  echo "No theme directories found"
+  exit 1
+fi
+
+THEME_DIRECTORY="${WAYBAR_DIR}/$(echo "$DIRECTORIES" | tofi --prompt-text="theme: " --fuzzy-match=false)"
+
+if [ ! -d "$THEME_DIRECTORY" ]; then
+  echo "Selected theme directory not found"
+  exit 1
+fi
+
+pkill waybar
+waybar --config "$THEME_DIRECTORY/config" --style "$THEME_DIRECTORY/style.css"
