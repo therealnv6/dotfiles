@@ -23,4 +23,3 @@ fi
 
 pkill waybar
 exec $THEME_DIRECTORY/start $THEME_DIRECTORY
-waybar --config "$THEME_DIRECTORY/config" --style "$THEME_DIRECTORY/style.css"
