@@ -1,0 +1,2 @@
+#!/bin/bash
+waybar --config "$1/config" --style "$1/style.css"
