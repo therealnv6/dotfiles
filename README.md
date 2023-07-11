@@ -1,7 +1,9 @@
 # dotfiles
 
 these are my personal dotfiles, should work flawlessly on any other system as
-long as you have all of the required dependencies.
+long as you have all of the required dependencies. most of it is based on
+[fakecarbon](https://github.com/therealnv6/fakecarbon.conf), take a look at that
+project for further information and credits.
 
 # dependencies
 
