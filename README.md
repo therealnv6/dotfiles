@@ -31,7 +31,24 @@ project for further information and credits.
 - [tofi](/tofi)
 - ~~[fish](/fish)~~: i previously used fish, but switched to zsh.
 
-# Credits
+# wallpapers
 
-- [cxOrz](https://github.com/cxOrz/dotfiles-hyprland), initially based on this,
-  with adjusted color scheme, icons, and script.
+wallpapers are fetched dynamically from [wallhaven](wallhaven.cc), these are
+always randomly selected based on the `WH_QUERY` environment variable. it's
+recommended to set this variable at startup, like so:
+
+```
+export WH_QUERY="landscape"
+
+# optional, to use things like explicit images.
+export WH_API_KEY=<key>
+```
+
+this script can be found
+[here](https://github.com/therealnv6/dotfiles/blob/main/hypr/paper-wallhaven.sh).
+
+# credits
+
+- [cxOrz](https://github.com/cxOrz/dotfiles-hyprland), initially based
+  `fakecarbon-fw` on their waybar theme, with adjusted color scheme, icons, and
+  script.
