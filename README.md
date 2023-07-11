@@ -19,16 +19,19 @@ project for further information and credits.
 # screenshots
 
 <img src="https://raw.githubusercontent.com/therealnv6/dotfiles/main/waybar/waybar/fakecarbon-fw-bottom/assets/image.png" 
-    width="100%" 
+    width="80%" 
     align="right">
 <br>
 
 <img src="https://raw.githubusercontent.com/therealnv6/dotfiles/main/waybar/waybar/fakecarbon-fw-top/assets/image.png" 
-    width="100%" 
+    width="80%" 
     align="right">
 <br>
 
-![screenshot](.assets/screenshot-1.png)
+<img src="https://raw.githubusercontent.com/therealnv6/dotfiles/main/.assets/screenshot-1.png" 
+    width="80%" 
+    align="right">
+<br>
 
 # Credits
 
