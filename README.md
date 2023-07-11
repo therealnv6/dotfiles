@@ -13,6 +13,8 @@ project for further information and credits.
   for something like `sway` or anything else that's supported by waybar, but
   you'll have to update the waybar workspace configuration accordingly.
 - [kitty](/kitty)
+- [tofi](/tofi)
+- ~~[fish](/fish)~~: i previously used fish, but switched to zsh.
 
 # screenshots
 
