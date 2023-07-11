@@ -41,6 +41,8 @@ window#waybar {
 #pulseaudio,
 #bluetooth,
 #network,
+#tray,
+#temperature,
 #battery {
   border-radius: 10px;
   background-color: #282a36;
@@ -62,8 +64,4 @@ window#waybar {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   padding-left: 5px;
-}
-
-#clock {
-  margin-right: 0;
 }

@@ -9,11 +9,12 @@
     "bluetooth",
     "network",
     "battery",
+    "temperature",
     "tray",
     "custom/notification"
   ],
   "custom/furry": {
-    "format": "rivvy",
+    "format": "code.",
     "tooltip": false
   },
   "wlr/workspaces": {
@@ -33,7 +34,7 @@
     }
   },
   "clock": {
-    "format": "<span color='#b4befe'> </span>{:%H:%M}"
+    "format": "{:%a, %d %b, %I:%M %p}"
   },
   "backlight": {
     "device": "intel_backlight",
@@ -57,36 +58,22 @@
     "tooltip-format": "{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
   },
+  "temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format-critical": "<span color='#b4befe'></span> {temperatureC}°C {icon}",
+    "format": "<span color='#b4befe'></span> {temperatureC}°C {icon}"
+  },
   "network": {
     "interface": "eno1",
     "format": "{ifname}",
     "format-wifi": "<span color='#b4befe'> </span>{essid}",
-    "format-ethernet": "    {ipaddr}/{cidr}",
+    "format-ethernet": "<span color='#b4befe'> </span>  {ipaddr}/{cidr}",
     "format-disconnected": "<span color='#b4befe'>󰖪 </span>No Network",
     "tooltip": false
   },
   "tray": {
     "icon-size": 18,
     "spacing": 10
-  },
-  "custom/notification": {
-    "tooltip": false,
-    "format": "{icon}",
-    "format-icons": {
-      "notification": "<span foreground='#b4befe''><sup></sup></span>",
-      "none": "",
-      "dnd-notification": "<span foreground='#b4befe''><sup></sup></span>",
-      "dnd-none": "",
-      "inhibited-notification": "<span foreground='#b4befe''><sup></sup></span>",
-      "inhibited-none": "",
-      "dnd-inhibited-notification": "<span foreground='#b4befe''><sup></sup></span>",
-      "dnd-inhibited-none": ""
-    },
-    "return-type": "json",
-    "exec-if": "which swaync-client",
-    "exec": "swaync-client -swb",
-    "on-click": "swaync-client -t -sw",
-    "on-click-right": "swaync-client -d -sw",
-    "escape": true
   }
 }
