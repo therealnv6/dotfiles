@@ -27,7 +27,7 @@ modify_font underline_thickness 150%
 #: Cursor customization {{{
 
 #: The cursor shape can be one of (block, beam, underline)
-cursor_shape beam 
+cursor_shape beam
 
 cursor_blink_interval 0
 
@@ -114,7 +114,8 @@ shell_integration no-title
 #: Show the title of the currently active window in the macOS menu-
 #: bar, making use of otherwise wasted space.
 macos_show_window_title_in none
-# macos_titlebar_color background
+
+macos_titlebar_color background
 
 #: }}}
 #: Keyboard shortcuts {{{
@@ -219,7 +220,3 @@ map kitty_mod+f next_layout
 include kitty.local.conf
 
 # }}}
-
-# BEGIN_KITTY_THEME
-include fakecarbon.conf
-# END_KITTY_THEME
