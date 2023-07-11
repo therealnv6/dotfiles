@@ -1,17 +1,17 @@
 # dotfiles
 
 <img src="https://raw.githubusercontent.com/therealnv6/dotfiles/main/waybar/waybar/fakecarbon-fw-bottom/assets/image.png" 
-    width="80%" 
+    width="60%" 
     align="right">
 <br>
 
 <img src="https://raw.githubusercontent.com/therealnv6/dotfiles/main/waybar/waybar/fakecarbon-fw-top/assets/image.png" 
-    width="80%" 
+    width="60%" 
     align="right">
 <br>
 
 <img src="https://raw.githubusercontent.com/therealnv6/dotfiles/main/.assets/screenshot-1.png" 
-    width="80%" 
+    width="60%" 
     align="right">
 <br>
 
