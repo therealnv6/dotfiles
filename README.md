@@ -1,10 +1,5 @@
 # dotfiles
 
-these are my personal dotfiles, should work flawlessly on any other system as
-long as you have all of the required dependencies. most of it is based on
-[fakecarbon](https://github.com/therealnv6/fakecarbon.conf), take a look at that
-project for further information and credits.
-
 <img src="https://raw.githubusercontent.com/therealnv6/dotfiles/main/waybar/waybar/fakecarbon-fw-bottom/assets/image.png" 
     width="80%" 
     align="right">
@@ -19,6 +14,11 @@ project for further information and credits.
     width="80%" 
     align="right">
 <br>
+
+these are my personal dotfiles, should work flawlessly on any other system as
+long as you have all of the required dependencies. most of it is based on
+[fakecarbon](https://github.com/therealnv6/fakecarbon.conf), take a look at that
+project for further information and credits.
 
 # dependencies
 
